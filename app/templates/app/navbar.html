@@ -1,0 +1,14 @@
+{% load static %}
+<header class="navbar">
+    <div class="nav-left">
+        <img class="nav-logo" src="{% static 'images/lhoraine.png' %}" alt="Logo">
+    </div>
+
+    <nav class="nav-center">
+        <a href="{% url 'home' %}">Home</a>
+        <a href="{% url 'about' %}">About</a>
+    </nav>
+</header>
+
+
+
